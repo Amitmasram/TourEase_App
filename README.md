@@ -36,7 +36,7 @@ After building the prototype and exploring the idea, we decided not to continue 
 ⇒ **Backend:** Firebase (Authentication, Cloud Storage, Analytics)
 ⇒ **AI Integration:** Gemini API
 ⇒ **Maps Integration:** Google Maps API (Places)
-⇒ **State Management:** Provider
+⇒ **State Management:** Provider MVVM Architecture
 
 ---
 

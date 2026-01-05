@@ -9,6 +9,11 @@ After building the prototype and exploring the idea, we decided not to continue 
 
 ---
 
+
+https://github.com/user-attachments/assets/04c295a9-9099-457a-a4ee-82216f7a858b
+
+
+---
 ## Features
 
 • Personalized travel suggestions using AI

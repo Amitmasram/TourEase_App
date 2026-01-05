@@ -1,12 +1,11 @@
-import 'package:TourEase/view/authentication/home_auth_screen.dart';
-import 'package:TourEase/view/authentication/signup/signup_screen.dart';
-import 'package:TourEase/view/onboarding/onboarding_screen.dart';
+import 'package:TourEase/core/utils/routes/routes_name.dart';
+import 'package:TourEase/views/auth/home_auth_screen.dart';
+import 'package:TourEase/views/auth/signup/signup_screen.dart';
+import 'package:TourEase/views/onboarding/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
-import '../../../view/authentication/login/login_screen.dart';
-import '../../../view/main_screen/home/home_screen.dart';
-
-import 'routes_name.dart';
+import 'package:TourEase/views/auth/login/login_screen.dart';
+import 'package:TourEase/views/home/home/home_screen.dart';
 
 /// A class that handles generating routes for the app.
 ///
@@ -22,16 +21,16 @@ class Routes {
     // Check the name of the route
     switch (settings.name) {
       // If the route is for the splash screen, return a MaterialPageRoute with the SplashScreen as the builder
-      case RoutesName.splash:
+      case RoutesName.onboarding:
         return MaterialPageRoute(
             builder: (context) => const OnboardingScreen());
       case RoutesName.login:
         return MaterialPageRoute(builder: (context) => const LoginScreen());
       case RoutesName.home:
         return MaterialPageRoute(builder: (context) => const HomeScreen());
-      case RoutesName.signup:
+      case RoutesName.register:
         return MaterialPageRoute(builder: (context) => const SignUpScreen());
-      case RoutesName.homeAuth:
+      case RoutesName.home:
         return MaterialPageRoute(builder: (context) => const HomeAuthScreen());
 
       // If no route is defined, return a MaterialPageRoute with a default screen

@@ -1,0 +1,184 @@
+Analyzing TourEase...                                           
+
+  error - Target of URI doesn't exist: '../presentation/main_screen/main_screen.dart' - lib\app.dart:7:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'app_theme.dart' - lib\app.dart:8:8 - uri_does_not_exist
+  error - Undefined name 'AppTheme' - lib\app.dart:44:14 - undefined_identifier
+  error - Undefined name 'AppTheme' - lib\app.dart:45:18 - undefined_identifier
+  error - The name 'MainScreen' isn't a class - lib\app.dart:49:34 - creation_with_non_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\constants\colors.dart:25:52 - deprecated_member_use
+warning - Unused import: 'package:flutter_dotenv/flutter_dotenv.dart' - lib\core\env\environment_config.dart:1:8 - unused_import
+   info - The private field _auth could be 'final' - lib\data\datasources\remote\auth_service.dart:4:16 - prefer_final_fields
+   info - Don't invoke 'print' in production code - lib\data\datasources\remote\auth_service.dart:12:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\data\datasources\remote\auth_service.dart:24:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\data\network\network_api_service.dart:15:49 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\data\network\network_api_service.dart:30:20 - prefer_const_constructors
+  error - Target of URI doesn't exist: 'app/app.dart' - lib\main.dart:5:8 - uri_does_not_exist
+  error - The name 'TourEase' isn't a class - lib\main.dart:14:16 - creation_with_non_type
+  error - Target of URI doesn't exist: '../../data/models/hills_model.dart' - lib\models\hills_models.dart:3:8 - uri_does_not_exist
+  error - The name 'LocationModel' isn't a type, so it can't be used as a type argument - lib\models\hills_models.dart:9:15 - non_type_as_type_argument
+  error - The name 'LocationModel' isn't a type, so it can't be used as a type argument - lib\models\hills_models.dart:10:10 - non_type_as_type_argument
+  error - The method 'LocationModel' isn't defined for the type 'LocationService' - lib\models\hills_models.dart:38:28 - undefined_method
+  error - The name 'LocationModel' isn't a type, so it can't be used as a type argument - lib\models\hills_models.dart:59:15 - non_type_as_type_argument
+  error - The name 'LocationModel' isn't a type, so it can't be used as a type argument - lib\models\hills_models.dart:67:15 - non_type_as_type_argument
+  error - The name 'LocationModel' isn't a type, so it can't be used as a type argument - lib\models\hills_models.dart:75:15 - non_type_as_type_argument
+  error - The name 'LocationModel' isn't a type, so it can't be used as a type argument - lib\models\hills_models.dart:83:15 - non_type_as_type_argument
+  error - Target of URI doesn't exist: '../../presentation/authentication/login/login_screen.dart' - lib\routes\routes.dart:6:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../presentation/main_screen/home/home_screen.dart' - lib\routes\routes.dart:7:8 - uri_does_not_exist
+  error - The name 'LoginScreen' isn't a class - lib\routes\routes.dart:29:62 - creation_with_non_type
+  error - The name 'HomeScreen' isn't a class - lib\routes\routes.dart:31:62 - creation_with_non_type
+  error - Target of URI doesn't exist: '../widgets/custom_button.dart' - lib\views\auth\forget_password_screen.dart:9:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../widgets/custom_text_field.dart' - lib\views\auth\forget_password_screen.dart:10:8 - uri_does_not_exist
+  error - The method 'CustomTextField' isn't defined for the type '_ForgotPasswordScreenState' - lib\views\auth\forget_password_screen.dart:124:26 - undefined_method
+  error - The method 'GradientButton' isn't defined for the type '_ForgotPasswordScreenState' - lib\views\auth\forget_password_screen.dart:137:26 - undefined_method
+warning - Unused import: 'package:TourEase/core/widgets/custom_button.dart' - lib\views\auth\home_auth_screen.dart:4:8 - unused_import
+   info - Use 'const' with the constructor to improve performance - lib\views\auth\home_auth_screen.dart:127:55 - prefer_const_constructors
+  error - The method 'GradientButton' isn't defined for the type '_HomeAuthScreenState' - lib\views\auth\home_auth_screen.dart:153:28 - undefined_method
+  error - Target of URI doesn't exist: '../../main_screen/main_screen.dart' - lib\views\auth\login\login_screen.dart:16:8 - uri_does_not_exist
+  error - The method 'GradientButton' isn't defined for the type '_LoginScreenState' - lib\views\auth\login\login_screen.dart:184:32 - undefined_method
+   info - Use 'const' with the constructor to improve performance - lib\views\auth\login\login_screen.dart:231:7 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\auth\login\login_screen.dart:231:25 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\views\auth\login\login_screen.dart:245:11 - use_build_context_synchronously
+  error - The name 'MainScreen' isn't a class - lib\views\auth\login\login_screen.dart:246:57 - creation_with_non_type
+   info - Don't invoke 'print' in production code - lib\views\auth\login\login_screen.dart:262:11 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\views\auth\login\login_screen.dart:272:11 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\views\auth\login\login_screen.dart:278:30 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance - lib\views\auth\login\login_screen.dart:279:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\auth\login\login_screen.dart:279:29 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\views\auth\login\login_screen.dart:304:26 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\views\auth\login\login_screen.dart:308:26 - use_build_context_synchronously
+warning - Unused import: 'package:TourEase/core/widgets/custom_button.dart' - lib\views\auth\signup\signup_screen.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\views\auth\signup\signup_screen.dart:18:9 - use_super_parameters
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\views\auth\signup\signup_screen.dart:87:16 - sized_box_for_whitespace
+  error - The method 'GradientButton' isn't defined for the type '_SignUpScreenState' - lib\views\auth\signup\signup_screen.dart:173:32 - undefined_method
+   info - Don't invoke 'print' in production code - lib\views\auth\signup\signup_screen.dart:222:7 - avoid_print
+   info - Use 'const' with the constructor to improve performance - lib\views\auth\signup\signup_screen.dart:224:9 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\auth\signup\signup_screen.dart:224:27 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\views\auth\signup\signup_screen.dart:234:9 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\views\auth\signup\signup_screen.dart:241:11 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\views\auth\signup\signup_screen.dart:247:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\views\auth\signup\signup_screen.dart:266:28 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\views\auth\signup\signup_screen.dart:270:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\views\auth\signup\signup_screen.dart:271:28 - use_build_context_synchronously
+   info - Parameter 'key' could be a super parameter - lib\views\auth\verify_email.dart:15:9 - use_super_parameters
+   info - Don't use 'BuildContext's across async gaps - lib\views\auth\verify_email.dart:84:20 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\views\auth\verify_email.dart:103:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\views\auth\verify_email.dart:109:28 - use_build_context_synchronously
+warning - The value of the local variable 'remainingText' isn't used - lib\views\home\ai_Chat\ai_chat_screen.dart:86:12 - unused_local_variable
+warning - The declaration '_cleanMarkdownText' isn't referenced - lib\views\home\ai_Chat\ai_chat_screen.dart:165:10 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\ai_Chat\ai_chat_screen.dart:253:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\ai_Chat\ai_chat_screen.dart:327:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\ai_Chat\ai_chat_screen.dart:408:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\ai_Chat\ai_chat_screen.dart:438:33 - deprecated_member_use
+   info - The import of 'package:carousel_slider/carousel_options.dart' is unnecessary because all of the used elements are also provided by the import of 'package:carousel_slider/carousel_slider.dart' - lib\views\home\home\carousal_slider.dart:1:8 - unnecessary_import
+   info - Unnecessary instance of 'Container' - lib\views\home\home\carousal_slider.dart:15:20 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\views\home\home\home_screen.dart:112:23 - avoid_unnecessary_containers
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\home_screen.dart:124:36 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\views\home\home\home_screen.dart:194:21 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\home_screen.dart:196:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\home_screen.dart:197:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\home_screen.dart:198:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\home_screen.dart:198:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\home_screen.dart:199:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\home_screen.dart:200:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\home_screen.dart:200:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\home_screen.dart:201:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\home_screen.dart:201:27 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\home\notification_screen.dart:125:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\home\notification_screen.dart:125:81 - deprecated_member_use
+warning - This default clause is covered by the previous cases - lib\views\home\home\notification_screen.dart:168:7 - unreachable_switch_default
+  error - Target of URI doesn't exist: '../../../widgets/custom_button.dart' - lib\views\home\home\tabs_screens\all_screen.dart:9:8 - uri_does_not_exist
+  error - The method 'GradientButton' isn't defined for the type '_AllPlaceScreenState' - lib\views\home\home\tabs_screens\all_screen.dart:252:21 - undefined_method
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\tabs_screens\all_screen.dart:260:51 - prefer_const_constructors
+  error - Target of URI doesn't exist: '../../../../../data/models/hills_model.dart' - lib\views\home\home\tabs_screens\details_screens\hills_location.dart:7:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../../widgets/custom_button.dart' - lib\views\home\home\tabs_screens\details_screens\hills_location.dart:8:8 - uri_does_not_exist
+  error - Undefined class 'LocationModel' - lib\views\home\home\tabs_screens\details_screens\hills_location.dart:12:9 - undefined_class
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\tabs_screens\details_screens\hills_location.dart:40:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\tabs_screens\details_screens\hills_location.dart:40:62 - prefer_const_constructors
+   info - 'launch' is deprecated and shouldn't be used. Use launchUrl instead - lib\views\home\home\tabs_screens\details_screens\hills_location.dart:147:29 - deprecated_member_use
+  error - The method 'GradientButton' isn't defined for the type '_HillsDetailsScreenState' - lib\views\home\home\tabs_screens\details_screens\hills_location.dart:151:25 - undefined_method
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\tabs_screens\details_screens\hills_location.dart:158:55 - prefer_const_constructors
+  error - Target of URI doesn't exist: '../../../../../data/models/hills_model.dart' - lib\views\home\home\tabs_screens\details_screens\lakes_location.dart:7:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../../widgets/custom_button.dart' - lib\views\home\home\tabs_screens\details_screens\lakes_location.dart:8:8 - uri_does_not_exist
+   info - The type name 'lakesDetailScreen' isn't an UpperCamelCase identifier - lib\views\home\home\tabs_screens\details_screens\lakes_location.dart:11:7 - camel_case_types
+  error - Undefined class 'LocationModel' - lib\views\home\home\tabs_screens\details_screens\lakes_location.dart:12:9 - undefined_class
+   info - The type name '_lakesDetailScreenState' isn't an UpperCamelCase identifier - lib\views\home\home\tabs_screens\details_screens\lakes_location.dart:20:7 - camel_case_types
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\tabs_screens\details_screens\lakes_location.dart:40:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\tabs_screens\details_screens\lakes_location.dart:40:62 - prefer_const_constructors
+   info - 'launch' is deprecated and shouldn't be used. Use launchUrl instead - lib\views\home\home\tabs_screens\details_screens\lakes_location.dart:147:29 - deprecated_member_use
+  error - The method 'GradientButton' isn't defined for the type '_lakesDetailScreenState' - lib\views\home\home\tabs_screens\details_screens\lakes_location.dart:151:25 - undefined_method
+   info - Use 'const' with the constructor to improve performance - lib\views\home\home\tabs_screens\details_screens\lakes_location.dart:158:55 - prefer_const_constructors
+  error - Target of URI doesn't exist: '../../../../data/models/hills_model.dart' - lib\views\home\home\tabs_screens\hills_screen.dart:6:8 - uri_does_not_exist
+   info - Invalid use of a private type in a public API - lib\views\home\home\tabs_screens\hills_screen.dart:15:3 - library_private_types_in_public_api
+  error - The name 'LocationModel' isn't a type, so it can't be used as a type argument - lib\views\home\home\tabs_screens\hills_screen.dart:19:8 - non_type_as_type_argument
+   info - Don't use 'BuildContext's across async gaps - lib\views\home\home\tabs_screens\hills_screen.dart:40:28 - use_build_context_synchronously
+  error - Undefined class 'LocationModel' - lib\views\home\home\tabs_screens\hills_screen.dart:79:29 - undefined_class
+  error - Target of URI doesn't exist: '../../../../data/models/hills_model.dart' - lib\views\home\home\tabs_screens\lakes_screen.dart:6:8 - uri_does_not_exist
+   info - Invalid use of a private type in a public API - lib\views\home\home\tabs_screens\lakes_screen.dart:15:3 - library_private_types_in_public_api
+  error - The name 'LocationModel' isn't a type, so it can't be used as a type argument - lib\views\home\home\tabs_screens\lakes_screen.dart:19:8 - non_type_as_type_argument
+   info - Don't use 'BuildContext's across async gaps - lib\views\home\home\tabs_screens\lakes_screen.dart:40:28 - use_build_context_synchronously
+  error - Undefined class 'LocationModel' - lib\views\home\home\tabs_screens\lakes_screen.dart:79:29 - undefined_class
+warning - Unused import: 'package:TourEase/core/widgets/custom_button.dart' - lib\views\home\profile\feedback.dart:2:8 - unused_import
+   info - Invalid use of a private type in a public API - lib\views\home\profile\feedback.dart:11:3 - library_private_types_in_public_api
+   info - 'canLaunch' is deprecated and shouldn't be used. Use canLaunchUrl instead - lib\views\home\profile\feedback.dart:38:15 - deprecated_member_use
+   info - 'launch' is deprecated and shouldn't be used. Use launchUrl instead - lib\views\home\profile\feedback.dart:39:13 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\views\home\profile\feedback.dart:41:28 - use_build_context_synchronously
+  error - The method 'GradientButton' isn't defined for the type '_FeedbackScreenState' - lib\views\home\profile\feedback.dart:64:13 - undefined_method
+  error - Target of URI doesn't exist: '../../authentication/login/login_screen.dart' - lib\views\home\profile\profile_screen.dart:9:8 - uri_does_not_exist
+   info - Invalid use of a private type in a public API - lib\views\home\profile\profile_screen.dart:15:3 - library_private_types_in_public_api
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\profile\profile_screen.dart:79:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\profile\profile_screen.dart:80:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\profile\profile_screen.dart:113:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\profile\profile_screen.dart:114:30 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\views\home\profile\profile_screen.dart:120:57 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\views\home\profile\profile_screen.dart:191:21 - use_build_context_synchronously
+  error - The name 'LoginScreen' isn't a class - lib\views\home\profile\profile_screen.dart:193:53 - creation_with_non_type
+   info - Invalid use of a private type in a public API - lib\views\home\search\search_screen.dart:11:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\views\home\search\search_screen.dart:82:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\views\home\search\search_screen.dart:116:30 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\views\home\search\search_screen.dart:127:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\views\home\search\search_screen.dart:184:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:229:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:229:68 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:281:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:281:90 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:305:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:305:74 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\views\home\search\search_screen.dart:309:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\views\home\search\search_screen.dart:356:17 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:411:46 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\views\home\search\search_screen.dart:422:19 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:451:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:511:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:511:74 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:538:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\home\search\search_screen.dart:538:72 - deprecated_member_use
+warning - Unused import: 'package:TourEase/core/widgets/custom_button.dart' - lib\views\onboarding\onboarding_screen.dart:5:8 - unused_import
+   info - Invalid use of a private type in a public API - lib\views\onboarding\onboarding_screen.dart:15:3 - library_private_types_in_public_api
+  error - The method 'GradientButton' isn't defined for the type '_OnboardingScreenState' - lib\views\onboarding\onboarding_screen.dart:80:11 - undefined_method
+  error - The method 'GradientButton' isn't defined for the type '_OnboardingScreenState' - lib\views\onboarding\onboarding_screen.dart:91:11 - undefined_method
+   info - The package name 'TourEase' isn't a lower_case_with_underscores identifier - pubspec.yaml:1:7 - package_names
+  error - Target of URI doesn't exist: 'package:TourEase/app/app.dart' - test\widget_test.dart:8:8 - uri_does_not_exist
+  error - The name 'TourEase' isn't a class - test\widget_test.dart:15:35 - creation_with_non_type
+
+flutter : 159 
+issues found. (ran 
+in 4.5s)
+At line:1 char:1
++ flutter analyze 
+> analysis_output.t
+xt 2>&1
++ ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo 
+             : No  
+  tSpecified: (1   
+ 59 issues foun    
+d. (ran in 4.5    
+s):String) [],     
+RemoteExcepti    on
+    + FullyQualifi 
+   edErrorId : Na  
+  tiveCommandErr   
+ or
+ 
